@@ -55,7 +55,7 @@ function draw() {
             }
 
             // If point in array is active draw a square
-            fill(173, 216, 230)
+            fill(48, 101, 172)
             if(sliderArray[x][y].data !== 0){
                 square(sliderArray[x][y].xpos - square_size/2, sliderArray[x][y].ypos -square_size/2, square_size)
             }
@@ -81,7 +81,7 @@ function windowResized(){
 
 function oneActiveTrigger(point, x, y){
     noFill()
-    stroke(color(173, 216, 230))
+    stroke(color(48, 101, 172))
     let xval = point.x - x
     let yval = point.y - y
     let line_vector = {
@@ -95,7 +95,7 @@ function oneActiveTrigger(point, x, y){
 
 function twoActiveTriggers(active_corners, x, y){
     noFill()
-    stroke(color(173, 216, 230))
+    stroke(color(48, 101, 172))
     // If points are complements treat them both as solo points
     if (active_corners[0].x === active_corners[1].x){
         xval = x * spaceBetween - spaceBetween/2
