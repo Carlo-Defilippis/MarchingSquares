@@ -3,14 +3,14 @@
 
 var canvasHeight
 var canvasWidth
-var canvasWidthRatio = .7
-var canvasHeightRatio = .8
 var sliderArray
 var spaceBetween = 10
+var canvasWidthRatio = .7
+var canvasHeightRatio = .8
 
 
-const box = document.querySelector('#container')
 var slider_parent = document.querySelector('#slider')
+const box = document.querySelector('#container')
 
 //Start Perlin Noise
 generate_noise.seed(Math.random())
