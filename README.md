@@ -23,4 +23,4 @@ If you are interested in contributing to this project, feel free to fork this re
 
 ## Live Demo <a name="access"></a>
 
-<a href="https://carlo-defilippis.github.io/MarchingSquares/" target="_blank">LINK to live demo.</a>
+<a href="https://carlo-defilippis.github.io/MarchingSquares/" target="_blank">LINK to live demo. Use the slider to adjust the noise.</a>
