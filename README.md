@@ -1,7 +1,7 @@
 # Marching Squares
 Marching squares outlines blobs of non-transparent pixels inside a bitmap. It is a computer graphics algorithm that generates contours for a two-dimensional scalar field (rectangular array of individual numerical values).
 
-[Marching Gif](https://raw.githubusercontent.com/Carlo-Defilippis/MarchingSquares/main/march.gif)
+[https://raw.githubusercontent.com/Carlo-Defilippis/MarchingSquares/main/march.gif](Marching GIF)
 
 ## Table of Contents
 1. [About](#about)
